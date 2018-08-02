@@ -1,0 +1,41 @@
+{{ partial "global-header.html" . }}
+<!-- Service Flare-stack Start -->
+<div class="container">
+    <div class="row">&nbsp;
+        <div class="col-sm-12">
+          <h1>Qualitative & Quantitative asset inspection using Remote Piloted Aerial Survey (RPAS) systems and 3-D Reality Modelling</h1>
+        </div>
+    </div>&nbsp;
+    <div class="row">
+        <div class="col-sm-6 col-left-pad">
+          <p>Conventional flare surveys require isolating the flare for at least 8 hrs and elevating an inspector in a man cage using a high reach crane at maximum extension.</p>
+          <p>This conventional method introduces production interruption costs and signifiant HSE risks.</p>
+          <p>ATMECO safely integrates remotely piloted aerial survey (RPAS) hardware & 3-D Reality modelling software systems to perform flare tip inspections on oil, gas & petrochemical production facilities.</p>
+        </div>
+        <div class="col-sm-6 text-center">
+            <p><strong>See Flare tip Inspections Sample Video Below</strong></p>
+            <div id="myElement1">
+              <script type="text/JavaScript">
+                var playerInstance = jwplayer("myElement1");
+                playerInstance.setup({
+                   width: "100%",
+                   image: "https://streaming.atmeco.com/atmecoweb/114bd506-bd55-4723-b673-e506c13cb773/thumbnails/Flare_Tip_Modelling_inspection_abr_tumb.0000001.jpg",
+                   file: "https://streaming.atmeco.com/atmecoweb/114bd506-bd55-4723-b673-e506c13cb773/hls/Flare_Tip_Modelling_inspection.m3u8"
+                });
+              </script>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 flare-img">
+          <img src="{{ $.Site.BaseURL }}{{ .Site.Params.services.flarestack.image }}" alt="" class="img-responsive img-rounded"/>
+        </div>
+        <div class="col-sm-6">
+          <p>ATMECO’s Interactive 3-D reality modelling data interface releases the full potential of RPAS (drone) surveys in major hazard facilities, saves money and eliminates personnel risk when inspecting difficult or dangerous to reach assets without interrupting the production process.</p>
+          <p>Our interactive reports allow clients to “ fly” around their asset and extract quantitative and qualitative data which cannot be done using conventional stills and video reports.</p>
+        </div>
+    </div>
+    <p class="center-text" style="padding: 30px;">
+        <a class="btn btn-main" href="{{ $.Site.BaseURL }}services/">Back to RPAS services</a>
+    </p>
+</div>

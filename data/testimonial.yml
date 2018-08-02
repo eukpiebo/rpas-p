@@ -1,0 +1,47 @@
+enable: true
+title: Integrated Safety Management Systems
+paragraph: >
+  Our RPAS team comprises personnel with extensive experience operating in and around hazardous environments in accord with rigorous safety management procedures.
+
+numbers:
+  - icon: ion-ios-compose-outline
+    counters_: Approvals
+    text: Australian Civil Aviation Safety Authority approved RPAS operator certificate.
+  - icon: ion-ios-timer-outline
+    counters_: LEL Alarm
+    text: Integrated visual and audible LEL alarm to comply with Hot work Permit requirements.
+  - icon: ion-ios-glasses-outline
+    counters_: Safety  Management
+    text: Third party certified Integrated safety management systems complying with AS/NZ 4801.
+  - icon: ion-ios-checkmark-outline
+    counters_: OffShore Compliance
+    text: All personnel deployed for offshore asset condition inspections are BOSIET & HUET certified.
+
+Clients:
+  - text: >
+      Our RPAS inspection technology and procedures are based in many years of deploying intrinsically safe(IS) and non-IS rated battery operated equipment in major hazardous facility sites. Safety systems.
+    title: Major Hazard Facility
+    image:
+    name:
+    role:
+
+  - text: >
+      Survey deliverables from this system can form part of your hydrocarbon emissions regulatory compliance reporting obligations. Annual hydrocarbon & VOC emissions reports. Deliverables.
+    title: Regulatory Compliance
+    image:
+    name: 
+    role: 
+
+  - text: >
+      Asset integrity survey methodologies and leak risk (emissions) data management systems conform to strict USEPA LDAR standards. USEPA. RPAS generated asset integrity data is accessible via ATMECO's proprietary cloud component integrity management system CIMS. 
+    title: Secure and Efficent Data Management
+    image: 
+    name: 
+    role: 
+
+  - text: >
+      We operate onshore and offshore deploying a range of process integrity and leak risk management inspection and remediation services based on international oil and gas industry leak detection and repair LDAR standards. Process safety management.
+    title: Leak Risk Management
+    image: 
+    name:
+    role: 

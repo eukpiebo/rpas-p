@@ -1,0 +1,101 @@
+title = "RPAS"
+baseURL = "https://atmeco.com/rpas/"
+languageCode = "en-us"
+theme = ""
+
+[menu]
+  
+  [[menu.atmecohome]]
+    weight = 1
+    name = "ATMECO Home"
+    url = "https://atmeco.com"
+  [[menu.videosite]]
+    weight = 2
+    name = "RPAS Videos"
+    url = "https://videos.atmeco.com"
+  [[menu.header]]
+    weight = 4
+    name = "About Us"
+    url = "/about-us"
+  [[menu.header]]
+    weight = 5
+    name = "Services"
+    url = "/services"
+
+  [[menu.footer]]
+    weight = 1
+    name = "ATMECO Home"
+    url = "https://atmeco.com"
+  [[menu.footer]]
+    weight = 2
+    name = "RPAS Videos"
+    url = "https://videos.atmeco.com"
+  [[menu.footer]]
+    weight = 4
+    name = "services"
+    url = "/services"
+  [[menu.footer]]
+    weight = 5
+    name = "About Us"
+    url = "/about-us"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    title = "ATMECO RPAS &amp; Drone Surveys"
+    subtitle = "Multisensor Aerial Surveys and 3D Reality Modelling"
+
+  [params.wrapper]
+    enable = true
+    title = "ATMECO RPAS"
+    italic = "ATMECO Fluid Motion delivers an integrated Remote Piloted Aerial Survey (RPAS) services solution which delivers critical asset integrity data direct to the client’s desktop while the RPAS team is still in the field."
+    paragraph = "The RPAS integrated service forms part of a closed loop critical asset component integrity management system which, eliminates time delays between field survey activity and asset condition reporting. It also enables fast and effective repair action prioritisation in response to findings and efficient re-deployment of RPAS resources to capture qualitative and quantitative data to verify the effectiveness of repair response actions taken."
+
+  [params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = true
+    title = "About Us"
+    content1= "ATMECO fluid motion specialises in remote piloted aerial survey RPAS services to the oil and gas industry."
+    content2 = "ATMECO has leak detection and repair survey services agreements with many upstream oil, gas and petroleum refining facilities around Australia, New Zealand, South Africa and the Middle East."
+    [params.feature.button]
+      caption = "RPAS Videos"
+      url = "/work"
+
+  [params.call]
+    enable = true
+    title = "Asset Integrity Inspections and 3D Reality Modelling"
+    paragraph = "ATMECO’s Interactive 3-D reality modelling data interface releases the full potential of RPAS (drone) surveys in major hazard facilities, saves money and eliminates personnel risk when inspecting difficult or dangerous to reach assets without interrupting the production process."
+
+  [params.contact]
+    enable = true
+    title = "Drop us a note"
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Stop by for a visit"
+      address = "North Main Street, Brooklyn Australia"
+      email = "Email: contact@mail.com"
+      phone = "Phone: +88 01672 506 744"
+    [params.contact.gmaps]
+      title = "We Also Count in Google Maps"
+  [params.services.flarestack]
+    image = "img/RPAS/Flare_Tip_Model_cropped.jpg"
