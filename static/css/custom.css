@@ -71,6 +71,9 @@
     padding-bottom: 18px;
 }  
 
+#service{
+    padding-top: 50px;
+}
 #service .service-item h4 {
     color: #0b416c;
 }
