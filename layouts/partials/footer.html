@@ -5,9 +5,18 @@
       <div class="col-md-12">
         <div class="footer-manu">
           <ul>
+            {{ range .Site.Menus.atmecohome }}
+            <li><a href="{{ .URL }}/" target="">{{ .Name }}</a></li>
+            {{ end }}
+
+            {{ range .Site.Menus.videosite }}
+            <li><a href="{{ .URL }}/" target="Blank">{{ .Name }}</a></li>
+            {{ end }}
+            
             {{ range .Site.Menus.footer }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
+
           </ul>
         </div>
         <p>&copy; Copyright 2012 - 2018 All rights Reserved by Klinger Limited - ATMECO Service Division</p>

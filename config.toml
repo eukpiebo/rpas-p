@@ -22,14 +22,7 @@ theme = ""
     name = "Services"
     url = "/services"
 
-  [[menu.footer]]
-    weight = 1
-    name = "ATMECO Home"
-    url = "https://atmeco.com"
-  [[menu.footer]]
-    weight = 2
-    name = "RPAS Videos"
-    url = "https://videos.atmeco.com"
+
   [[menu.footer]]
     weight = 4
     name = "Services"
