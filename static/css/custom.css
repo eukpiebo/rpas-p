@@ -20,7 +20,7 @@
 #global-header {
     background: url("../img/slider-bg.jpg") no-repeat;
     padding-top: 90px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 .post-title {
     color: #0b416c;
@@ -72,7 +72,7 @@
 }  
 
 #service{
-    padding-top: 50px;
+    padding-top: 25px;
 }
 #service .service-item h4 {
     color: #0b416c;
