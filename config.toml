@@ -32,7 +32,7 @@ theme = ""
     url = "https://videos.atmeco.com"
   [[menu.footer]]
     weight = 4
-    name = "services"
+    name = "Services"
     url = "/services"
   [[menu.footer]]
     weight = 5
