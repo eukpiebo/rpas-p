@@ -2,7 +2,7 @@
     font-weight: 400;
     font-size: 42px
 }
-#slider .btn-main, .btn-transparent, .btn-small {
+#slider .btn-main {
     background: #0b416c24;
     border-color: #DEDEDE;
     border-style: solid;
@@ -10,6 +10,11 @@
 #slider .btn-main:hover {
     background: #42a6e073;
 }
+#slider .btn-main:focus {
+    background: #42a6e073;
+    color: #fff;
+}
+
 #slider .sliderbtn {
     padding-top: 80px;
 }
