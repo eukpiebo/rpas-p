@@ -44,7 +44,9 @@ $(document).ready(function(){
         delay: 10,
         time: 1000
     });*/
-
+    window.addEventListener("beforeunload", function () {
+		document.body.classList.add("animate-out");
+	});
 
 });
 
