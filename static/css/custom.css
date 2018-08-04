@@ -258,19 +258,19 @@
 }
 
 .animate-in {
-    -webkit-animation: fadeIn .5s ease-in;
-    animation: fadeIn .5s ease-in;
+    -webkit-animation: fadeIn .6s ease-in;
+    animation: fadeIn .6s ease-in;
 }
 .animate-out {
-    -webkit-transition: opacity .5s;
-    transition: opacity .5s;
-    opacity: 0.2;
+    -webkit-transition: opacity .6s;
+    transition: opacity .6s;
+    opacity: 0;
 }
 @-webkit-keyframes fadeIn {
-    from { opacity: 0.2; }
+    from { opacity: 0; }
     to { opacity: 1; }
 }
 @keyframes fadeIn {
-    from { opacity: 0.2; }
+    from { opacity: 0; }
     to { opacity: 1; }
 }
