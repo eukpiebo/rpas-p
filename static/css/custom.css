@@ -178,9 +178,13 @@
     background-color: transparent;
 }
 .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
+    position: relative;
+    left: 45%;
     transform: translatex(-50%);
+}
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 65px;
 }
 
 @media(min-width:768px) {
