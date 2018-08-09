@@ -14,7 +14,16 @@
         </div>
         <div class="col-sm-6 text-center">
             <p><strong>See Flare tip Inspections Sample Video Below</strong></p>
-            {{% vid-player 114bd506-bd55-4723-b673-e506c13cb773/thumbnails/Flare_Tip_Modelling_inspection_abr_tumb.0000001.jpg 114bd506-bd55-4723-b673-e506c13cb773/hls/Flare_Tip_Modelling_inspection.m3u8 /%}}
+            <div id="myElement1">
+                <script type="text/JavaScript">
+                    var playerInstance = jwplayer("myElement1");
+                    playerInstance.setup({
+                        width: "100%",
+                        image: "https://streaming.atmeco.com/atmecoweb/114bd506-bd55-4723-b673-e506c13cb773/thumbnails/Flare_Tip_Modelling_inspection_abr_tumb.0000001.jpg",
+                        file: "https://streaming.atmeco.com/atmecoweb/114bd506-bd55-4723-b673-e506c13cb773/hls/Flare_Tip_Modelling_inspection.m3u8"
+                    });
+                </script>
+            </div>
         </div>
     </div>
     <div class="row">
