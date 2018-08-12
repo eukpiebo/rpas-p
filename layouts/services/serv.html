@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+	{{ partial "header.html" . }}
+
+	{{ partial "global-header.html" . }}
+	<!-- Service Flue-stack Start -->
+	<div class="container">
+		<div class="row">&nbsp;
+		  <div class="col-sm-12">
+			<h1>{{ .Params.title2 }}</h1>
+		  </div>
+		</div>&nbsp;
+		<div class="row">
+			<div class="col-sm-8">{{ .Content }}</div>
+			<div class="col-sm-4">
+				 <img src="{{ $.Site.BaseURL }}{{ .Params.image2 }}" alt="" class="img-responsive img-rounded"/><br>
+				 <img src="{{ $.Site.BaseURL }}{{ .Params.image1 }}" alt="" class="img-responsive img-rounded"/><br>
+				 <img src="{{ $.Site.BaseURL }}{{ .Params.image3 }}" alt="" class="img-responsive img-rounded"/>
+			</div>
+		</div>
+		<p class="center-text" style="padding: 30px;">
+			<a class="btn btn-main" href="{{ $.Site.BaseURL }}services/">Back to RPAS services</a>
+		</p>
+	</div>
+
+	{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
+		{{ partial "call-to-action.html" . }}
+	{{ end }}
+
+	{{ partial "footer.html" . }}
+	
+</body>
+</html>
