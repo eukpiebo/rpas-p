@@ -5,21 +5,38 @@ subtitle: >
 content:
 
   - image: "img/RPAS/Flare_Tip_Model_cropped.jpg"
-    url: "flarestack/"
+    url: "services/flarestack/"
     name: Flare Stack Inspections
     text: >
-      Flare Stack Inspections using remotely piloted aerial survey systems.
+      Flare Stack Inspections using RPAS survey systems.
 
   - image: "img/RPAS/Shep-HRAL.jpeg"
-    url: "biogas/"
+    url: "services/biogas/"
     name: Biogas & Anaerobic Digester
     text: >
-      Mechanical integrity & Methane emissions surveys Remote Piloted Aerial Survey (RPAS) Platforms - “Drones”
+      Mechanical integrity & Methane emissions surveys
 
   - image: "img/RPAS/fluestack2.png"
-    url: "fluestack/"
+    url: "services/fluestack/"
     name: Flue Stack-360-3D Surveys
     text: >
       A 360 Degree-3D view of your flue stack (Inside & Outside).
 
+  - image: "img/RPAS/confinedspace4.png"
+    url: "services/confined-space/"
+    name: Confined Space RPAS Surveys
+    text: >
+      Minimise HSE risk with restricted space remote piloted aerial surveys.
+
+  - image: "img/RPAS/ROV360_1.png"
+    url: "services/rov-360/"
+    name: ROV-360 Surveys
+    text: >
+      360-degree monoscopic or stereoscopic surveys of your assets.
+
+  - image: "img/RPAS/flueduct2.png"
+    url: "services/flueduct/"
+    name: Flue Duct surveys
+    text: >
+      Qualitative and Quantitative flue duct condition surveys.
   
