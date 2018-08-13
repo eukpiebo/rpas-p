@@ -3,8 +3,8 @@ title: Confined Space RPAS Surveys
 title2: Minimise HSE risk with restricted space remote piloted aerial surveys.
 id: 
 tag: 
-image1: img/RPAS/confinedspace1.png
-image2: img/RPAS/confinedspace4.png
+image1: img/RPAS/confinedspace4.png
+image2: img/RPAS/confinedspace5.jpg
 image3: img/RPAS/confinedspace3.jpg
 image4: img/RPAS/confinedspace2.png
 type: services
