@@ -1,0 +1,10 @@
+<div id="myElement1">
+    <script type="text/JavaScript">
+      var playerInstance = jwplayer("myElement1");
+      playerInstance.setup({
+         width: "100%",
+         image: "https://streaming.atmeco.com/atmecoweb/{{ index .Params 0 }}",
+         file: "https://streaming.atmeco.com/atmecoweb/{{ index .Params 1 }}"
+      });
+    </script>
+</div>
