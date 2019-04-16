@@ -17,7 +17,7 @@ theme = ""
   [[menu.videosite]]
     weight = 2
     name = "RPAS Videos"
-    url = "https://videos.atmeco.com"
+    url = "https://atmeco.com/rpas-videos/"
   [[menu.header]]
     weight = 4
     name = "About Us"
